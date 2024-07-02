@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MF Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            padding: 20px;
+        }
+
+        #searchTerm {
+            padding: 10px; 
+            font-size: 16px;
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+
+        #searchButton {
+            padding: 10px 20px; 
+            font-size: 16px;
+            background-color: #007bff; 
+            color: #fff; 
+            border: none;
+            border-radius: 5px; 
+            cursor: pointer;
+        }
+
+        #searchButton:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+    <div id="search">
+        <input type="text" id="searchTerm" placeholder="Buscar vídeos...">
+        <button id="searchButton">Buscar</button>
+    </div>
+    <div id="videos"></div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  mf_drawer:
+    build: ./mf_drawer
+    ports:
+      - "3001:80"
+  mf_videos:
+    build: ./mf_videos
+    ports:
+      - "3002:80"
+  bff:
+    build: ./bff
+    ports:
+      - "3000:3000"
